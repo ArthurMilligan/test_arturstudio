@@ -1,0 +1,18 @@
+.radioFilter{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin-top: 30px;
+    &__input{
+        display: none;
+    }
+    &__label{
+        box-sizing: border-box;
+        display:flex;
+        justify-content: center;
+        padding:3px 5px;
+        &_active{
+            outline: 1px solid white;
+        }
+    }
+}

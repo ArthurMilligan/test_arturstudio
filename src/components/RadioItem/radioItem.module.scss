@@ -1,0 +1,19 @@
+.radioItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    border: 1px solid grey;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    &__button{
+        display: none;
+    }
+    &__taskName{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:5px;
+    }
+}
